@@ -1,1 +1,92 @@
-/* You can add global styles to this file, and also import other style files */
+.mat-step-icon {
+  font-weight: bold !important;
+  height: 36px !important;
+  width: 36px !important;
+}
+
+.mat-step-icon.mat-step-icon-selected {
+  background-color: teal !important;
+}
+
+.mat-step-icon:not(.mat-step-icon-selected) {
+  background-color: #00808066 !important;
+  backdrop-filter: blur(5px);
+}
+
+.mat-vertical-stepper-header {
+  pointer-events: none !important;
+  padding-left: 0 !important;
+}
+
+.mat-vertical-content-container {
+  margin-left: 18px !important;
+}
+
+.mat-vertical-content {
+  padding-left: 30px !important;
+}
+
+.mat-step-header.cdk-program-focused {
+  background-color: unset !important;
+}
+
+.icon {
+  color: teal;
+}
+
+a:link {
+  text-decoration: underline;
+}
+
+.nextline-stepper .mat-step-label.mat-step-label {
+  text-overflow: inherit;
+  white-space: normal;
+}
+
+.form-control.ng-touched.ng-invalid {
+  border-color: #dc3545 !important;
+  background: #ffc7c7 !important;
+}
+
+
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  line-height: 60px; /* Vertically center the text there */
+  background-color: #f5f5f5;
+}
+
+
+/* Custom page CSS
+-------------------------------------------------- */
+/* Not required for template or sticky footer method. */
+
+body > .container {
+  padding: 60px 15px 0;
+}
+
+.footer > .container {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+code {
+  font-size: 80%;
+}
+
+
+
